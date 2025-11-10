@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">See Over The Wall</string>
+    <string name="reload">Reload</string>
+    <string name="intro0">This application allows you to turn your Wi-Fi router into a sonar.</string>
+    <string name="intro">Your phone must be stationary to use this application.</string>
+    <string name="start">Start analyze</string>
+    <string name="recal">Something has been removed from the field or you have moved. New mapping required.</string>
+    <string name="recal2">There is too much movement between the router and your phone to make an accurate mapping.</string>
+    <string name="permi">You must accept the permissions to use the application.</string>
+    <string name="wifi">The WiFi is not enabled.</string>
+    <string name="wifi2">The phone is not connected to a WiFi network.</string>
+    <string name="clickbou">Click on the compass\nin the direction where\nthe Wi-Fi router is located.</string>
+    <string name="west">W</string>
+</resources>

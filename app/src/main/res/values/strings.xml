@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">See Over The Wall</string>
+    <string name="reload">Recharger</string>
+    <string name="intro0">Cette application permet de transformer votre routeur Wi-Fi en sonar.</string>
+    <string name="intro">Votre téléphone doit être immobile pour pouvoir utiliser cette application.</string>
+    <string name="start">Lancer l\'analyse</string>
+    <string name="recal">Quelque chose s\'est retiré du champ ou vous avez bougé. Nouveau mapping nécessaire.</string>
+    <string name="recal2">Il y a trop de mouvements entre le routeur et votre téléphone pour faire un mapping approprié.</string>
+    <string name="permi">Vous devez accepter les permissions pour utiliser l\'application.</string>
+    <string name="wifi">Le Wifi n\'est pas activé.</string>
+    <string name="wifi2">Le téléphone n\'est pas connecté à un réseau Wifi.</string>
+    <string name="clickbou">Cliquer sur la boussole\ndans la direction où\nle routeur Wi-Fi se trouve.</string>
+    <string name="west">O</string>
+</resources>

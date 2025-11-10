@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <LinearLayout
+        android:id="@+id/contentLoader"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="#90000000"
+        android:gravity="center"
+        android:elevation="10dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/counter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="12"
+            android:textColor="#FFFFFF"
+            android:textAlignment="center"
+            android:textSize="100sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="See Over\nThe Wall"
+        android:fontFamily="@font/font_title"
+        android:textColor="#FF0000"
+        android:textAlignment="center"
+        android:rotation="-5"
+        android:textSize="55sp" />
+
+
+    <LinearLayout
+        android:id="@+id/contentAll"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="center">
+
+
+        <LinearLayout
+            android:id="@+id/sonarContent"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/reload"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:textColor="#000000"
+                android:onClick="reload"
+                android:text="@string/reload"
+                android:textSize="15sp"/>
+
+            <LinearLayout
+                android:id="@+id/sonar"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp">
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/triangContent"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="0dp">
+
+            <TextView
+                android:id="@+id/intro0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textAlignment="center"
+                android:text="@string/intro0"
+                android:textColor="#FFFFFF"
+                android:textSize="26sp"/>
+
+            <TextView
+                android:id="@+id/intro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:textAlignment="center"
+                android:text="@string/intro"
+                android:textColor="#FFFFFF"
+                android:textSize="23sp"/>
+
+            <!--<Button
+                android:id="@+id/start"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="100dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:textColor="#000000"
+                android:onClick="start"
+                android:text="@string/start"
+                android:textSize="22sp"/>-->
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:padding="2dp"
+                android:background="@drawable/border_background">
+
+                <com.ncorti.slidetoact.SlideToActView
+                    android:id="@+id/start"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:elevation="10dp"
+                    app:area_margin="10dp"
+                    app:animation_duration="250"
+                    app:outer_color="#000000"
+                    app:inner_color="#FFFFFF"
+                    app:border_radius="2dp"
+                    app:text="@string/start"
+                    app:text_size="20sp"
+                    app:slider_height="80dp"
+                    app:slider_locked="false"
+                    app:bounce_on_start="true" />
+            </FrameLayout>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
